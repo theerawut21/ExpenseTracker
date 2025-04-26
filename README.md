@@ -27,12 +27,14 @@ Persona 2:
 - อายุ: 22 ปี  
 - อาชีพ: นักศึกษาฝึกงาน  
 - ความต้องการ: ต้องการวางแผนงานและกำหนดเป้าหมายประจำสัปดาห์
+
 1.2 เป้าหมายของแอป | App Goals
 ตัวอย่าง (Example):
 
 - ช่วยนักศึกษาจัดตารางเรียนรายสัปดาห์
 - เพิ่มระบบเตือนสอบและงานที่ต้องส่ง
 - มีหน้าแดชบอร์ดรวมกิจกรรมประจำวัน
+
 1.3 โครงร่างหน้าจอ / Mockup
 ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages
 
@@ -50,6 +52,7 @@ Persona 2:
 - Flutter 3.19
 - Dart 3.2
 - Package: Provider, SharedPreferences
+
 2.2 ฟังก์ชันที่พัฒนา | Features Implemented
 Checklist:
 
@@ -69,11 +72,15 @@ Checklist:
 
 # 3. การ Build และติดตั้งแอป | Deployment (2 คะแนน / 2 pts)
 3.1 ประเภท Build | Build Type
+
 [x] Debug
+
 [ ] Release
 
 3.2 แพลตฟอร์มที่ทดสอบ | Platform Tested
+
 [x] Android
+
 [ ] iOS
 
 3.3 ไฟล์ README และวิธีติดตั้ง | README & Install Guide
