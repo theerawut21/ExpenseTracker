@@ -24,7 +24,7 @@ Persona 1:
 
 Persona 2:  
 - ชื่อ: พอส  
-- อายุ: 26 ปี  
+- อายุ: 24 ปี  
 - อาชีพ: พนักงานบริษัท  
 - ความต้องการ: ต้องการวางแผนการออมเงินเพื่อใช้สำหรับสร้างครอบครัวในอนาคต
 
@@ -38,25 +38,28 @@ Persona 2:
 **1.3 โครงร่างหน้าจอ / Mockup**
 ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages
   
-  *1.3.1* 
+  *1.3.1 Home* 
   
-  ![1 3 1](https://github.com/user-attachments/assets/9cb4c2c2-9ab5-4c44-8073-3577458b3c7d)
+  ![1 3 1](https://github.com/user-attachments/assets/9cb4c2c2-9ab5-4c44-8073-3577458b3c7d)  >>>  ![1 3 1 1](https://github.com/user-attachments/assets/1b914eb7-ddd0-4ae5-9d91-15a1c3eda1df)
 
 
-  *1.3.2*
+
+  *1.3.2 Statistics*
   
-  
+  ![1 3 2](https://github.com/user-attachments/assets/26fabfc3-93a2-4880-ae0e-e91caabd02bc)
 
 
-  *1.3.3*
+
+  *1.3.3 Saving Goals*
   
-  ![1 3 3](https://github.com/user-attachments/assets/a373dae4-cf7b-4bf0-ab01-f00fd7a0ffe8)
+  ![1 3 3](https://github.com/user-attachments/assets/a373dae4-cf7b-4bf0-ab01-f00fd7a0ffe8)  >>>  ![1 3 3 1](https://github.com/user-attachments/assets/38a3db1f-33bc-4a17-8d7a-e1c644b1ca77)
+
   
 
 **1.4 การไหลของผู้ใช้งาน | User Flow**
 ตัวอย่าง (Example):
 
-เปิดแอป > เข้าหน้าหลัก > กด "+ Add Transaction" เพื่อเพิ่มรายการรายรับ-รายจ่าย > Save Transaction > เลือก "Statistics" เพื่อตรวจสอบการใช้จ่ายและเงินคงเหลือ > เลือก "Saving Goals" > กด "+" เพื่อตั้งเป้าหมายในการเก็บเงิน 
+เปิดแอป > เข้าหน้าหลัก > กด "+ Add Transaction" เพื่อเพิ่มรายการรายรับ-รายจ่าย > Save Transaction > เลือก "Statistics" เพื่อตรวจสอบการใช้จ่ายและเงินคงเหลือ > เลือก "Saving Goals" > กด "+" เพื่อตั้งเป้าหมายในการเก็บเงิน > Save Goal
 
 ---
 
@@ -64,26 +67,33 @@ Persona 2:
 **2.1 รายละเอียดการพัฒนา | Development Details**
 เครื่องมือที่ใช้ / Tools used:
 
-- Flutter 3.19
-- Dart 3.2
-- Package: Provider, SharedPreferences
+- React Native
+- Expo
+- Package: react-navigation/native, react-navigation/bottom-tabs, react-navigation/stack, react-native-paper, react-native-vector-icons, react-native-safe-area-context
 
 **2.2 ฟังก์ชันที่พัฒนา | Features Implemented**
 Checklist:
 
-- [x] เพิ่ม / แก้ไข / ลบ ตารางเรียน
-- [x] ตั้งเตือนกิจกรรม
-- [x] บันทึกงานที่ต้องทำ
-- [ ] ซิงก์กับ Google Calendar
+- [x] เพิ่ม/ลบ รายรับ-รายจ่าย
+- [x] แสดง รายรับ-รายจ่าย รวมในแต่ละเดือน
+- [x] ตั้งเป้าหมายการเก็บออมเงิน
+- [x] เพิ่ม/ลบ/แก้ไข เป้าหมายการออมเงิน
 
 **2.3 ภาพหน้าจอแอป | App Screenshots**
 แนบภาพหรือ URL (Attach images or image links):
 
-- ![2 3 1](https://github.com/user-attachments/assets/ab38453e-0a60-410c-a4cb-199b807a05bb)
+- *Home*
+  
+  ![2 3 1](https://github.com/user-attachments/assets/ab38453e-0a60-410c-a4cb-199b807a05bb)
 
-- ![2 3 2](https://github.com/user-attachments/assets/99534c0b-ae90-495b-be91-4055cfef7514)
+- *Statistics*
+  
+  ![2 3 2](https://github.com/user-attachments/assets/99534c0b-ae90-495b-be91-4055cfef7514)
 
-- ![2 3 3](https://github.com/user-attachments/assets/219695c0-8380-45b7-9a1f-f4727c194623)
+- *Saving Goals*
+  
+  ![2 3 3](https://github.com/user-attachments/assets/d254bac5-9cd2-472c-bcc8-c1821d12f320)
+
 
 
 ---
@@ -113,10 +123,94 @@ Checklist:
 # 4. การสะท้อนผลลัพธ์ | Reflection (2 คะแนน / 2 pts)
 ตัวอย่างหัวข้อ | Suggested points:
 
-- พบปัญหาเวลาใช้ setState กับ async function
-- เรียนรู้การใช้ Provider ในการจัดการสถานะ
-- หากมีเวลา จะเพิ่มฟีเจอร์ login และ Firebase sync
+- พบปัญหาเรื่องการ update / delete record ใน AsyncStorage
+- ไม่มีระบบยืนยันตอนลบข้อมูล เพื่อป้องกันปัญหาการทำข้อมูลหายโดยไม่ได้ตั้งใจ
+- หากมีเวลาจะเพิ่มฟีเจอร์ login และเชื่อม Firebase เพื่อเก็บข้อมูลและเพื่อความเป็นส่วนตัวของผู้ใช้งานมากยิ่งขึ้น
 
 ---
 
 # 5. การใช้ AI ช่วยพัฒนา | AI Assisted Development (Bonus / ใช้ประกอบการพิจารณา)
+
+**5.1 ใช้ AI ช่วยออกแบบ UI | UI Layout Prompt**
+
+**Prompt ที่ใช้ :**
+
+ออกแบบแอพสำหรับ บันทึกรายรับ-รายจ่าย
+
+ฟังก์ชันหลัก
+
+1.เพิ่มรายรับ / รายจ่าย 
+
+-เลือกประเภท (รายรับ / รายจ่าย)
+
+-ใส่จำนวนเงิน
+
+-เลือกหมวดหมู่ (เช่น อาหาร, เดินทาง, เงินเดือน)
+
+-เพิ่มคำอธิบาย
+
+-เลือกวันที่
+
+2.ดูรายการย้อนหลัง 
+
+-แสดงรายการแบบรายวัน / รายเดือน
+
+-แสดงตามหมวดหมู่
+
+3.สรุปยอดเงิน 
+
+-รายรับทั้งหมด
+
+-รายจ่ายทั้งหมด
+
+-ยอดคงเหลือสุทธิ
+
+4.ตั้งเป้าหมายการออมเงิน (Saving Goals)
+
+-สร้างเป้าหมาย เช่น "เก็บเงินซื้อโน้ตบุ๊ก"
+
+-ใส่จำนวนที่ต้องการ และติดตามความคืบหน้า
+
+เทคโนโลยี : React native 
+
+**ผลลัพธ์ :**
+
+ได้โค้ดสำหรับ React Native ที่ต้องการใส่ฟังก์ชั่นต่างๆ ให้สำหรับแอพ
+
+**5.2 ใช้ AI ช่วยเขียนโค้ด | Code Writing Prompt**
+
+**Prompt ที่ใช้ :**
+
+ช่วยเพิ่มฟังก์ชันการลบรายการ รายรับ-รายจ่าย ในหน้า Home ให้หน่อยครับ
+
+**ผลลัพธ์ :**
+
+ได้โค้ดที่เพิ่มฟังก์ชันการลบรายการ รายรับ-รายจ่าย
+
+**5.3 ใช้ AI ช่วย debug | Debug Prompt**
+
+**Prompt ที่ใช้ :**
+
+รันแอพแล้วเกิดปัญหาจอขาวแก้ยังไงครับ
+
+**ผลลัพธ์ :**
+
+AI แนะนำวิธีตรวจสอบปัญหาเบื้องต้น และช่วยแก้ไขปัญหา
+
+**5.4 ใช้ AI ช่วย Deploy | Deployment Prompt**
+
+**Prompt ที่ใช้ :**
+
+วิธีการ Deploy แอพเป็นไฟล์ .apk
+
+**ผลลัพธ์ :**
+
+AI แนะนำขั้นตอนการ Build และแนะนำคำสั่ง
+
+npm install -g eas-cli
+
+eas login
+
+eas build:configure
+
+eas build -p android --profile preview
