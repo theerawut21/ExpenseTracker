@@ -65,6 +65,7 @@ Persona 2:
 
 # 2. การพัฒนาแอป | App Implementation (4 คะแนน / 4 pts)
 **2.1 รายละเอียดการพัฒนา | Development Details**
+
 เครื่องมือที่ใช้ / Tools used:
 
 - React Native
@@ -121,7 +122,6 @@ Checklist:
 ---
 
 # 4. การสะท้อนผลลัพธ์ | Reflection (2 คะแนน / 2 pts)
-ตัวอย่างหัวข้อ | Suggested points:
 
 - พบปัญหาเรื่องการ update / delete record ใน AsyncStorage
 - ไม่มีระบบยืนยันตอนลบข้อมูล เพื่อป้องกันปัญหาการทำข้อมูลหายโดยไม่ได้ตั้งใจ
