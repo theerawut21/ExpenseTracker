@@ -39,14 +39,17 @@ Persona 2:
 ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages
   
   *1.3.1* 
+  
   ![1 3 1](https://github.com/user-attachments/assets/9cb4c2c2-9ab5-4c44-8073-3577458b3c7d)
 
 
   *1.3.2*
-  ![1 3 2](https://github.com/user-attachments/assets/e4f46258-f878-4a8c-a654-fc023ae1a206)
+  
+  
 
 
   *1.3.3*
+  
   ![1 3 3](https://github.com/user-attachments/assets/a373dae4-cf7b-4bf0-ab01-f00fd7a0ffe8)
   
 
