@@ -40,7 +40,7 @@ Persona 2:
   
   *1.3.1 Home* 
   
-  ![1 3 1](https://github.com/user-attachments/assets/9cb4c2c2-9ab5-4c44-8073-3577458b3c7d)  >>>  ![1 3 1 1](https://github.com/user-attachments/assets/1b914eb7-ddd0-4ae5-9d91-15a1c3eda1df)
+  ![1 3 1](https://github.com/user-attachments/assets/9cb4c2c2-9ab5-4c44-8073-3577458b3c7d)  **>>>**  ![1 3 1 1](https://github.com/user-attachments/assets/1b914eb7-ddd0-4ae5-9d91-15a1c3eda1df)
 
 
 
@@ -52,7 +52,7 @@ Persona 2:
 
   *1.3.3 Saving Goals*
   
-  ![1 3 3](https://github.com/user-attachments/assets/a373dae4-cf7b-4bf0-ab01-f00fd7a0ffe8)  >>>  ![1 3 3 1](https://github.com/user-attachments/assets/38a3db1f-33bc-4a17-8d7a-e1c644b1ca77)
+  ![1 3 3](https://github.com/user-attachments/assets/a373dae4-cf7b-4bf0-ab01-f00fd7a0ffe8)  **>>>**  ![1 3 3 1](https://github.com/user-attachments/assets/38a3db1f-33bc-4a17-8d7a-e1c644b1ca77)
 
   
 
